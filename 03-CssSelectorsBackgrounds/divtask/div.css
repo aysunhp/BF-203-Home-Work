@@ -1,0 +1,29 @@
+.pic1{
+    background-image: url(./../pictures/galaxy.jpg);
+    background-repeat: inherit;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+}
+.pic2{
+    background-image: url(./../pictures/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 300px;
+}
+#berry{
+    background-image: url(./../pictures/berries.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 50%;
+    height: 200px;
+}
+div.pic4{
+    background-image: url(./../pictures/strawberry.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: repeat-y;
+    background-size: contain;
+    
+}

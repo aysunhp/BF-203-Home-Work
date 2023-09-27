@@ -1,0 +1,39 @@
+a{
+    font-size: 35px;
+    font-weight: 35px;
+    padding:30px;
+    color:black;
+}
+label{
+    font-size: 30px;
+    font-weight: 30px;
+    color: black;
+    padding: 15px;
+}
+body{
+    background-image: url(./../pictures/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+button{
+    font-size: 26px;
+    font-weight: 26px;
+}
+span#genderid{
+    color: black;
+    font-size: 30px;
+    font-weight: 30px;
+}
+[for|="lname"]{
+    color:red;
+}
+input:first-of-type{
+    color: blue;
+
+}
+input:last-of-type{
+    color:turquoise;
+}
+input:checked{
+    color:yellow
+}

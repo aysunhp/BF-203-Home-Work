@@ -1,0 +1,29 @@
+body{
+    background-image: url(./../pictures/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    font-size: 35px;
+    font-weight: 35px;
+    padding:30px;
+    color: bisque;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 25px;
+    color: bisque;
+}
+}
+button{
+    font-size: 35px;
+    font-weight: 35px;
+}
+#text{
+   font-size: 20px;
+   width: 50%;
+   height: 200px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
