@@ -37,3 +37,29 @@ p:first-of-type{
 li:hover{
     color:darkred;
 }
+
+div:first-child{
+    background-image: url(./../pictures/berries.jpg);
+    background-repeat: no no-repeat;
+    background-size: contain;
+    background-position: left;
+    width: 100%;
+    height: 200px;
+}
+div:nth-child(2){
+    background-image: url(./../pictures/strawberry.jpg);
+    background-repeat: no no-repeat;
+    background-size: contain;
+    background-position:left;
+    width: 100%;
+    height: 200px
+
+}
+div#fruits>div.berry:hover{
+    background-color: antiquewhite;
+}
+
+div:last-child:hover{
+    background-color: aqua;
+
+}
