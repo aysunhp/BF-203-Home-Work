@@ -1,3 +1,4 @@
+/* Htmlde a teginin textinin font-size'ni rengini deyisir */
 a{
     font-size: 35px;
     font-weight: 35px;
@@ -19,21 +20,49 @@ button{
     font-size: 26px;
     font-weight: 26px;
 }
+/* Htmlde id'si gender olan spanin rengini ve textini deyisir */
 span#genderid{
     color: black;
     font-size: 30px;
     font-weight: 30px;
 }
+/* Htmlde for atributu lname olan labelin renginin deyisir */
 [for|="lname"]{
     color:red;
 }
-input:first-of-type{
-    color: blue;
-
-}
-input:last-of-type{
+/* Htmlde labelin ilk numunesinin rengini deyisir */
+label:last-of-type{
     color:turquoise;
 }
-input:checked{
-    color:yellow
+/* Htmlde labelin ilk numunesinin rengini deyisir */
+label:first-of-type{
+    color: blue;
+}
+/* Htmldeki type atributu date olan input qutusunun yazisinin rengini deyisir */
+[type="date"]{
+    color:lawngreen;
+}
+/* Htmlde for atributu passw olanlabelin rengini deyisir */
+[for~="passw"]{
+    color:lightcoral;
+}
+/* Htmlde id'si basliq olan basliq teginin rengini deyisir */
+#basliq{
+    color: hotpink;
+}
+
+/* Htmlede for atributu email olan labelin rengini deyisir */
+[for^="email"]{
+    color:slateblue;
+}
+.bdate{
+    color:lightblue;
+}
+/* Htmlede for atributu gender olan labelin rengini deyisir */
+[class*="gender"]{
+    color:darkorange;
+}
+/* Htmlede for atributu tel olan labelin rengini deyisir */
+[for$="tel"]{
+    color:darkorchid
 }

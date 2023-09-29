@@ -1,3 +1,4 @@
+/* Htmlde butun teglere tesir deyisir */
 *{
     background-image: url("./../pictures/nightsky.jpg");
     background-repeat: no-repeat;
@@ -14,6 +15,7 @@ h2#heading{
     font-weight: 32px;
     color: beige;
 }
+/* Htmlde class; colleague olan butun h1 teglerine tesir edir */
 h2.colleague{
     font-size: 30px;
     font-weight: 30px;
@@ -27,17 +29,18 @@ p:first-of-type{
     width: 90%;
     height: 70px;
 }
+/* Htmldeki list elementlerine tesir edir */
  ul>li{
     font-size: 30px;
     font-weight: 30px;
     color: beige;
 }
 
-
+/* Htmldeki list elementine hereketlilik verir */
 li:hover{
     color:darkred;
 }
-
+/* Htmlde div elementinin ilk ovladina tesir edir */
 div:first-child{
     background-image: url(./../pictures/berries.jpg);
     background-repeat: no no-repeat;
@@ -46,6 +49,7 @@ div:first-child{
     width: 100%;
     height: 200px;
 }
+/* Htmlde div elementinin ikinci ovladina tesir edir */
 div:nth-child(2){
     background-image: url(./../pictures/strawberry.jpg);
     background-repeat: no no-repeat;
@@ -55,10 +59,15 @@ div:nth-child(2){
     height: 200px
 
 }
+/* Htmlde id'si fruits olan divin icerisindeki class'i berry olan dive hereketlilik verir */
 div#fruits>div.berry:hover{
     background-color: antiquewhite;
 }
-
+/* Htmlde div elementinin class'i berry olmayan elementlerine arxafon verir */
+div:not(.berry){
+    background-color:rgb(30, 78, 121);
+}
+/* Htmlde div elementinin sonuncu ovladina hereketlilik verir */
 div:last-child:hover{
     background-color: aqua;
 
