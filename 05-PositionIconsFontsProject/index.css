@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif';
+}
+
+#main {
+    border: 1px solid none;
+    width: 100%;
+    background-color: #063B33;
+    text-align: center;
+}
+
+article h1,
+article p {
+    color: #F9EBD8;
+}
+
+article h1 {
+    font-size: 45px;
+    padding-top: 2%;
+}
+
+article p {
+    font-size: 20px;
+    padding: 1% 8%;
+}
+
+.box {
+    border: 1px solid black;
+    width: 18%;
+    display: inline-block;
+    margin: 20px 5px;
+    position: relative;
+}
+
+.box h1,
+.box p {
+    padding: 0 5%;
+}
+
+.box1 {
+    background-color: #E56534;
+    border-top: 9px solid #C45023;
+}
+
+.box2 {
+    background-color: #F0C17D;
+    border-top: 9px solid #CFA76D;
+}
+
+.box3 {
+    background-color: #16B77B;
+    border-top: 9px solid #0E9B66;
+}
+
+.box4 {
+    background-color: #14A9B7;
+    border-top: 9px solid #0D929F;
+}
+
+.box h1,
+.box p{
+    color: white;
+    padding-top: 5%;
+}
+
+div.box a {
+    color: white;
+    font-size: 50px;
+}
+
+div.box button {
+    width: 42%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    margin: 50px 0px;
+}
+
+div.box1 button {
+    color: #E56534;
+}
+
+div.box2 button {
+    color: #F0C17D;
+}
+
+div.box3 button {
+    color: #16B77B;
+}
+
+div.box4 button {
+    color: #14A9B7;
+}
+
+div.fixed-button {
+    width: 4%;
+    height: 40px;
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+    border: 1px solid none;
+    background-color: black;
+    text-align: center;
+}
+
+div.fixed-button a {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+div.leftarrow,
+div.rightarrow {
+    border: 1px solid none;
+    width: 4%;
+    height: 40px;
+    margin: 0px 10px;
+    display: inline-block;
+    z-index: 3;
+}
+div.leftarrow{
+    position: absolute;
+    top:48%;
+    left:8%;
+}
+div.rightarrow{
+    position: absolute;
+    top:48%;
+    right:8%;
+}
+div.leftarrow a,
+div.rightarrow a {
+    font-size: 40px;
+    color: #022621;
+}
+
+.empty {
+    width: 100%;
+    height: 1500px;
+    background-color: #063B33;
+    border: 1px solid none;
+}
