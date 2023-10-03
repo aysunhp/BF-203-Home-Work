@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    border: 10px solid orange;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+ div.section1 .box{
+    border: 1px solid none;
+    color:white;
+    font-size: 50px;
+}
+div.section1 .box1{
+    background-color: #6EBC9D;
+    height: 50px;
+    width: 50px;
+   
+}
+div.section1 .box2{
+    background-color: #6692D7;
+    height: 90px;
+    width: 80px; 
+}
+div.section1 .box3{
+    background-color: #8E51B3;
+    height: 110px;
+    width: 100px;
+}
+div.section1 .box4{
+    background-color: #3C475D;
+    height: 200px;
+    width: 120px; 
+}
+div.section1 .box5{
+    background-color: #E2CA3D;
+    height: 30px;
+    width: 30px;
+} 
+div.section1 .box6{
+    background-color: #CC8437;
+    height: 90px;
+    width: 80px;
+}
+div.section1 .box7{
+    background-color: #C75345;
+    height: 90px;
+    width: 80px;
+}
+div.section1 .box8{
+    background-color: #BFC3C7;
+    height: 90px;
+    width: 80px;
+}
+div.section1 .box9{
+    background-color: #79CE77;
+    height: 90px;
+    width: 75px;
+}
+div.section1 .box10{
+    background-color: #5DA085;
+    height: 80px;
+    width: 50px;
+}
+
+/* Task2 */
+.section2{
+    border: 10px solid orange;
+    width: 100%;
+    height: 99vh;
+    display: flex;
+    text-align: center;
+ }   
+ div.section2 .box{
+    border: 1px solid none;
+    color:white;
+    font-size: 80px;
+    width: 10%;
+    height: 100px;
+}
+div.section2 .box1{
+    background-color: #6EBC9D;
+   
+}
+div.section2 .box2{
+    background-color: #6692D7;
+    height: 100%;
+  
+}
+div.section2 .box3{
+    background-color: #8E51B3;
+
+}
+div.section2 .box4{
+    background-color: #3C475D;
+    
+}
+div.section2 .box5{
+    background-color: #E2CA3D;
+}
+div.section2 .box6{
+    background-color: #CC8437;
+    align-self: center;
+  
+}
+div.section2 .box7{
+    background-color: #C75345;
+  
+}
+div.section2 .box8{
+    background-color: #BFC3C7;
+  
+}
+div.section2 .box9{
+    background-color: #79CE77;
+    align-self: flex-end;
+
+}
+div.section2 .box10{
+    background-color: #5DA085;
+    
+}
+/* task3 */
+.section3{
+    border: 10px solid orange;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+ }  
+ div.section3 div.mini-sect1, div.section3 div.mini-sect2{
+    border: 1px solid none;
+    width: 50%;
+    height: 49vh;
+ } 
+ div.section3 .box{
+    border: 1px solid none;
+    color:white;
+    font-size: 80px;
+}
+div.section3 .box1{
+    background-color: #6EBC9D;
+    height: 29vh;
+    width: 100%; 
+}
+div.section3 .box2{
+    background-color: #6692D7; 
+    height: 29vh;
+    width: 100%; 
+}
+div.section3 .box3{
+    background-color: #8E51B3;
+    height: 29vh;
+    width: 100%; 
+}
+div.section3 .box4{
+    background-color: #3C475D; 
+    height: 9vh;
+    width: 100%;
+}
+div.section3 .box5{
+    background-color: #E2CA3D;
+    height: 48vh;
+    width: 100%; 
+} 
+div.section3 .box6{
+    background-color: #CC8437;
+    height: 48vh;
+    width: 100%; 
+}
+
+
+
+/* task4 */
+.section4{
+    border: 10px solid orange;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+ }   
+ div.section4 .box{
+    border: 1px solid none;
+    color:white;
+    font-size: 80px;
+    height: 120px;
+    width: 33.3%;
+}
+
+div.section4 .box1{
+    background-color: #6EBC9D;
+    justify-content: flex-start; 
+   
+}
+div.section4 .box2{
+    background-color: #6692D7;
+    justify-content: flex-start; 
+ 
+}
+div.section4 .box3{
+    background-color: #8E51B3;
+    justify-content: flex-start; 
+    
+}
+div.section4 .box4{
+    background-color: #3C475D;
+    justify-content: flex-start; 
+   
+}
+div.section4 .box5{
+    background-color: #E2CA3D;
+    justify-content: flex-start; 
+
+}
+div.section4 .box6{
+    background-color: #CC8437;
+    justify-content: flex-start; 
+
+}
+div.section4 .box7{
+    background-color: #C75345;
+    
+}
+div.section4 .box8{
+    background-color: #BFC3C7;
+    
+}
+div.section4 .box9{
+    background-color: #79CE77;
+
+}
+div.section4 .box10{
+    background-color: #5DA085;
+  
+}
