@@ -1,0 +1,47 @@
+.third-animation{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    background-color: aquamarine;
+    border: 1px solid black;
+    width:70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medium{
+    background-color: blueviolet;
+    border: 1px solid black;
+    width:60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small{
+    background-color: bisque;
+    border: 1px solid black;
+    width:50%;
+    height: 50%;
+}
+.disc{transform:rotate(0deg);
+animation-name: boxs-drive;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes boxs-drive {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    } 
+}

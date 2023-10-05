@@ -1,0 +1,60 @@
+div.first-animation{
+    border: 1px solid black;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+div.box1, div.box2{
+    width: 15%;
+    height: 30%;
+    margin:20px 0;
+}
+div.box1{
+    background-color: red;
+    transition: width 1s;
+}
+div.box1:hover{
+  animation-timing-function:linear;
+  animation-name: moving-box1;
+  animation-duration: 3s;
+  position:relative;
+  animation-direction: alternate;
+}
+div.box2{
+ background-color: blue;
+ transition: width 1s;
+ transition-delay: 1s;
+
+}
+div.box1:hover + div.box2{
+    animation-name: moving-box2;
+    animation-duration: 6s;
+    animation-timing-function:linear;
+    animation-direction: alternate;
+    position:relative;
+}
+@keyframes moving-box1 {
+    0%{
+        width: 15%;
+    }
+    50%{
+        width: 35%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes moving-box2 {
+    0%{
+        width: 15%;
+    }
+    25%{
+        width: 15%;
+    }
+    50%{
+        width: 35%;
+    }
+    100%{
+        width: 15%;
+    }
+}
