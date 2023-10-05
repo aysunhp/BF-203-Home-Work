@@ -8,7 +8,6 @@
 }
 .big{
     background-color: aquamarine;
-    border: 1px solid black;
     width:70%;
     height: 70%;
     display: flex;
@@ -17,7 +16,6 @@
 }
 .medium{
     background-color: blueviolet;
-    border: 1px solid black;
     width:60%;
     height: 60%;
     display: flex;
@@ -26,7 +24,6 @@
 }
 .small{
     background-color: bisque;
-    border: 1px solid black;
     width:50%;
     height: 50%;
 }
