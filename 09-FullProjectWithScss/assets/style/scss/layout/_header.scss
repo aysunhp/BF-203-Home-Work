@@ -1,0 +1,53 @@
+header{
+    height: 80px;
+    background-color: #2C3E50;
+    position: fixed;
+    width: 100%;
+    nav{
+        width: 86%;
+        margin: 0 auto;
+        height: 100%;
+       
+        @include flexbox(space-between,center);
+
+        ul.links{
+            display: flex;
+
+            li{
+                padding: 0 15px;
+            }
+            li:hover a{
+                color: #1ABC9C;
+            }
+
+        }
+
+
+
+        .mobile-hamburger-menu{
+            background-color: #1ABC9C;
+            color: white;
+            padding: 14px 12px;
+            border-radius: 6px;
+            display: none;
+        }
+    }
+
+
+ }
+
+
+
+ @media only screen and (max-width:992px) {
+    .mobile-hamburger-menu{
+        display: block;
+    }
+    header nav .links{
+        display: none;
+    }
+}
+@media only screen and (max-width:576px) {
+    .logo h1{
+        font-size: 14px;
+    }
+}

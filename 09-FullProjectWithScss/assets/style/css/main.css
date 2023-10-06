@@ -1,0 +1,421 @@
+@import 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.font-style, .about button, .about p, .about h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.myblock5 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: black;
+  margin: 20px;
+}
+
+nav .logo h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
+nav a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 300ms;
+  font-family: "Roboto";
+}
+
+main div.greenbox h1 {
+  color: white;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 60px;
+  margin: 30px 0;
+}
+main div.greenbox span {
+  color: white;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 30px 0;
+}
+main div.greenbox a {
+  font-size: 50px;
+  margin: 30px 0;
+  color: white;
+}
+main div.greenbox a#line {
+  font-size: 50px;
+  margin: 30px 0;
+  color: white;
+  font-weight: 900;
+}
+main .portfolio h1 {
+  color: #2C3E50;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Roboto";
+  margin: 30px 0;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.about h1 {
+  font-size: 50px;
+  font-weight: 700px;
+}
+.btn {
+  background-color: #1ABC9C;
+  width: 200px;
+  height: 60px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+header {
+  height: 80px;
+  background-color: #2C3E50;
+  position: fixed;
+  width: 100%;
+}
+header nav {
+  width: 86%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul.links {
+  display: flex;
+}
+header nav ul.links li {
+  padding: 0 15px;
+}
+header nav ul.links li:hover a {
+  color: #1ABC9C;
+}
+header nav .mobile-hamburger-menu {
+  background-color: #1ABC9C;
+  color: white;
+  padding: 14px 12px;
+  border-radius: 6px;
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-hamburger-menu {
+    display: block;
+  }
+  header nav .links {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .logo h1 {
+    font-size: 14px;
+  }
+}
+main {
+  padding-top: 80px;
+}
+main div.greenbox {
+  width: 100%;
+  height: 80vh;
+  background-color: #1ABC9C;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main div.greenbox div.img-wrapper {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+main div.greenbox div.img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+main div.greenbox .block1 {
+  font-size: 30px;
+  margin: 30px;
+  display: flex;
+}
+main div.greenbox .block1 .line1 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+main div.greenbox .block1 .star {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+main div.greenbox .block1 .star a {
+  color: white;
+  font-weight: 50px;
+  margin-top: 7px;
+}
+main div.greenbox .block1 .line2 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+main div.portfolio {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main div.portfolio .block1 {
+  font-size: 30px;
+  margin: 30px;
+  display: flex;
+}
+main div.portfolio .block1 .line1 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+main div.portfolio .block1 .star {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+main div.portfolio .block1 .star a {
+  color: white;
+  font-weight: 50px;
+  margin-top: 7px;
+}
+main div.portfolio .block1 .line2 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+main .boxes {
+  padding: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 50px;
+}
+main .boxes .box1 {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png);
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  border-radius: 10px;
+}
+main .boxes .box2 {
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png);
+}
+main .boxes .box3 {
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png);
+}
+main .boxes .box4 {
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png);
+}
+main .boxes .box5 {
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+  border-radius: 10px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png);
+}
+main .boxes .box6 {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png);
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
+}
+
+section .about {
+  width: 100%;
+  height: 60vh;
+  background-color: #1ABC9C;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -80px;
+  position: relative;
+}
+section .about h1 {
+  padding-top: 30px;
+}
+section .about .block3 {
+  font-size: 30px;
+  margin: 30px;
+  display: flex;
+}
+section .about .block3 .line5 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+section .about .block3 .star {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+section .about .block3 .star a {
+  color: white;
+  font-weight: 50px;
+  margin-top: 7px;
+}
+section .about .block3 .star button {
+  width: 300px;
+  height: 100px;
+  background-color: #1ABC9C;
+}
+section .about .block3 .line6 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+
+#contact {
+  color: #2C3E50;
+  font-size: 25px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+#contact .block4 {
+  font-size: 30px;
+  margin: 30px;
+  display: flex;
+}
+#contact .block4 .line7 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+#contact .block4 .star {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+#contact .block4 .star a {
+  color: white;
+  font-weight: 50px;
+  margin-top: 7px;
+}
+#contact .block4 .line8 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+
+footer {
+  background-color: 2C3E50;
+}
+
+.contact {
+  color: #2C3E50;
+  font-size: 25px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.contact .block4 {
+  font-size: 30px;
+  margin: 30px;
+  display: flex;
+}
+.contact .block4 .line7 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.contact .block4 .star {
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+.contact .block4 .star a {
+  color: white;
+  font-weight: 50px;
+  margin-top: 7px;
+}
+.contact .block4 .line8 {
+  border-radius: 3px;
+  height: 4px;
+  width: 120px;
+  background-color: white;
+  margin: 20px;
+}
+
+footer {
+  background-color: 2C3E50;
+}/*# sourceMappingURL=main.css.map */

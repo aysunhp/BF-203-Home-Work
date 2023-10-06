@@ -1,0 +1,11 @@
+@mixin flexbox($Justify-c,$align-i){
+  display: flex;
+  justify-content:$Justify-c;
+  align-items: $align-i;
+}
+
+@mixin gridbox($number,$height1,$height2){
+  display: grid;
+  grid-template-columns: repeat($number,fr);
+  grid-auto-rows: $height1 $height2 ;
+}
