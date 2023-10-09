@@ -1,0 +1,158 @@
+// change all text elements' font family
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "Jost";
+}
+
+// change nav elements font-size and color
+.nav-left {
+  li a {
+    font-size: 20px;
+  }
+}
+.nav-right {
+  .nav-button {
+    color: white !important;
+  }
+}
+.nav-contact span {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-contact .phone {
+  font-weight: 300;
+  border-bottom: 1px dashed white;
+}
+// change the color and font-size of first section elements
+.first-sect {
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+  }
+  .price {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+  }
+  p {
+    font-size: 18px;
+    padding-top: 10px;
+    color: white;
+  }
+}
+
+// change the color and font-size of second section elements
+.second-sect {
+  h1 {
+    font-weight: 600px;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.667);
+  }
+  // change the color and font-size of icon elements
+  .arrow-left {
+    a {
+      font-size: 30px;
+      color: lightgray;
+    }
+  }
+  .arrow-right {
+    a {
+      font-size: 30px;
+      color: lightgray;
+    }
+  }
+}
+.third-sect {
+  h1 {
+    color: white;
+  }
+  .card {
+    color: white;
+  }
+}
+
+// change the color and font-size of fourth section elements
+.fourth-sect {
+  h1 {
+    font-weight: 600px;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.667);
+  }
+  // change the color and font-size of icon elements
+  .arrow-left {
+    a {
+      font-size: 30px;
+      color: lightgray;
+    }
+  }
+  .arrow-right {
+    a {
+      font-size: 30px;
+      color: lightgray;
+    }
+  }
+}
+
+// change the color and font-size of fifth section elements
+.fifth-sect {
+  a {
+    font-size: 18px;
+    color: black;
+  }
+}
+
+// change the color and font-size of sixth section elements
+.sixth-sect {
+  p {
+    margin-bottom: 80px;
+  }
+}
+// change the color and font-size of seventh section elements
+.seventh-sect {
+  h2 {
+    font-weight: 700;
+    color: white;
+    margin-top: 80px;
+  }
+  p {
+    margin-bottom: 60px;
+    color: white;
+  }
+  input {
+    border: none;
+    background-color: #004274;
+    border-bottom: 2px solid #beccd6;
+    color: white;
+  }
+}
+// change the color and font-size of footer elements
+footer {
+  margin-top: 80px;
+  ul li a {
+    color: rgba(59, 54, 54, 0.768);
+    padding: 20px;
+  }
+
+  h3 a {
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  a .img {
+    color: black;
+    font-size: 30px;
+  }
+  list-style: none;
+}

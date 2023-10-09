@@ -1,0 +1,16 @@
+// reset margin padding and box sizing all of pages
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// reset list style
+ul li {
+  list-style: none;
+}
+// reset text decoration of links
+a {
+  text-decoration: none;
+}

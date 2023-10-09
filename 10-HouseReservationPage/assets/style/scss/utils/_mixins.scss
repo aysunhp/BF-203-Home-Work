@@ -1,0 +1,19 @@
+//  mixin of flex example
+@mixin flexbox($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+//  mixin of flex direction example
+@mixin flexdirection($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin flex-direct($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
