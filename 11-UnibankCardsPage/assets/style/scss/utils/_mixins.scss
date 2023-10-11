@@ -1,0 +1,6 @@
+//  mixin of flex example
+@mixin flexbox($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

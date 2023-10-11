@@ -1,0 +1,17 @@
+nav {
+  width: 100%;
+  height: 7vh;
+  border: white;
+  .container {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    @include flexbox(space-between, center);
+    .navigation {
+      ul {
+        @include flexbox(space-between, center);
+        gap: 30px;
+      }
+    }
+  }
+}

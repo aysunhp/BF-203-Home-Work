@@ -1,0 +1,83 @@
+header {
+  .header-left-side {
+    .menu {
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+  .header-right-side {
+    .btn {
+      color: white;
+      text-align: center;
+    }
+    .fon {
+      margin-left: 8px;
+      a {
+        color: black;
+      }
+    }
+    .search a {
+      color: white;
+    }
+  }
+}
+
+nav {
+  .navigation {
+    ul li a {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  .phone {
+    a {
+      color: orange;
+      font-size: 20px;
+      span {
+        color: white;
+      }
+    }
+  }
+}
+main {
+  .textAboveHero {
+    h1 {
+      color: white;
+    }
+  }
+  .hero-section {
+    h4 {
+      color: white;
+    }
+  }
+  .textAboveCard {
+    h1 {
+      color: white;
+    }
+  }
+  .cards {
+    h1,
+    p,
+    button {
+      color: white;
+    }
+  }
+}
+
+footer {
+  li a {
+    color: white;
+    font-size: 20px;
+    h3 {
+      font-size: 23px;
+      color: white;
+    }
+    p {
+      color: white;
+    }
+  }
+}

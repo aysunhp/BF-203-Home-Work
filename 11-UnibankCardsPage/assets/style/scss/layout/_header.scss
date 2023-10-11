@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  height: 8vh;
+  .container {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    .logo {
+      width: 30px;
+      height: 30px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    @include flexbox(space-between, center);
+    .header-left-side {
+      @include flexbox(flex-start, center);
+      gap: 30px;
+      .menu ul {
+        @include flexbox(center, center);
+        gap: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+footer {
+  .container {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 50px;
+    .footer-menu {
+      @include flexbox(space-between, flex-start);
+      gap: 20px;
+      margin: 0 auto;
+    }
+
+    div.social-media {
+      ul {
+        @include flexbox(flex-start, flex-end);
+        gap: 20px;
+        .circle {
+          margin-top: 50px;
+          width: 30px;
+          height: 30px;
+          background-color: lightgray;
+          border-radius: 50%;
+          text-align: center;
+          padding-top: 13px;
+          a {
+            color: black;
+            font-size: 18px;
+            padding-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+  article {
+    text-align: center;
+    h3,
+    p {
+      color: white;
+    }
+  }
+}
