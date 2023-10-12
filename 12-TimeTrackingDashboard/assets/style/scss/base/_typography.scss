@@ -1,0 +1,43 @@
+header {
+  .logo a {
+    color: $third-color;
+    font-size: 22px;
+  }
+  .card .sale-button {
+    color: $second-color;
+  }
+  .cart #cart-quantity {
+    padding: 0px 5px;
+    border-radius: 50%;
+    background-color: $third-color;
+    color: $second-color;
+  }
+  .cart:hover i {
+    color: $second-color;
+  }
+}
+main {
+  #shop-in-style article {
+    text-align: center;
+    h2 {
+      color: $second-color;
+      font-size: 4.5rem;
+      margin-bottom: 15px;
+    }
+    p {
+      color: $base-color;
+      font-size: 20px;
+    }
+  }
+  .card {
+    .card-details-wrapper h4 {
+      margin-bottom: 12px;
+      font-weight: bold;
+      font-size: 22px;
+    }
+  }
+}
+
+footer {
+  color: $second-color;
+}

@@ -1,0 +1,42 @@
+main {
+  #shop-in-style {
+    background-color: #212529;
+    padding: 80px 0;
+  }
+
+  #cards {
+    border: 1px solid green;
+    padding: 100px 0px;
+
+    .card {
+      overflow: hidden;
+      border-radius: 7px;
+      border: 1px solid $base-color;
+      position: relative;
+
+      .card-img-wrapper {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .card-details-wrapper {
+        text-align: center;
+        padding: 20px 35px;
+        article {
+          margin-bottom: 50px;
+          .stars {
+            padding-bottom: 18px;
+            i {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

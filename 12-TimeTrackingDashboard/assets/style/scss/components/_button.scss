@@ -1,0 +1,21 @@
+main {
+  .card .card-details-wrapper button {
+    border: 1px solid $third-color;
+    background: transparent;
+    color: $third-color;
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+  .card .sale-button {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    background-color: $third-color;
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    border-radius: 5px;
+    color: $second-color;
+    padding-top: 6px;
+  }
+}
