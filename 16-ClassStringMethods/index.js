@@ -84,7 +84,7 @@
 //#region
 
 // let str = "JS String Exercises";
-// let word = "akam";
+// let word = "String";
 
 // function myfunc(word, str) {
 //     for (let i = 0; i < str.length; i++) {
@@ -134,29 +134,29 @@ people.push(human1, human2, human3, human4, human5);
 
 let input = prompt("search for human: ");
 
-function searchHuman(search, arr) {
+function searchHuman(search, array) {
     let result = [];
-    for (let i = 0; i < arr.length; i++) {
-        let fullName = arr[i].getFullName();
+    for (let i = 0; i < array.length; i++) {
+        let fullName = array[i].getFullName();
         if (
-            arr[i].name.toLowerCase().trim().includes(search.toLowerCase().trim()) ||
-            arr[i].surname
+            array[i].name.toLowerCase().trim().includes(search.toLowerCase().trim()) ||
+            array[i].surname
                 .toLowerCase()
                 .trim()
                 .includes(search.toLowerCase().trim()) ||
             fullName.toLowerCase().trim().includes(search.toLowerCase().trim())
         ) {
-            result.push(arr[i]);
+            result.push(array[i]);
         }
     }
-    if (result.length) {
+    if (result.length>0) {
         return result;
     } else {
         return alert(`not found ${search}`);
     }
 }
 
-let resultArr = searchHuman(input, people);
-console.log(resultArr);
+
+console.log(searchHuman(input, people));
 
 //#endregion
