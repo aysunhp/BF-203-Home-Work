@@ -50,8 +50,9 @@
 //#region
 
 // let str = "js string exercises";
-// myfunc = (str) => str.charAt(0).toUpperCase() + str.slice(1);
-
+// function myfunc(str){
+//    return  str.charAt(0).toUpperCase() + str.slice(1);
+// }
 // console.log(myfunc(str));
 
 //#endregion
