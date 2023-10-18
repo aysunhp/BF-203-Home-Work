@@ -1,3 +1,42 @@
+// let str = "   Hello, there ";
+// let str1 = "123";
+// console.log(str.match("H"));
+// console.log(str.matchAll("h"));
+// console.log(str.repeat(2));
+// console.log(str.search("Hello"));
+// console.log(str.length);
+// console.log(str.slice(0, 6));
+// console.log(str.substring(0, 5));
+// console.log(str.substr(3, 5));
+// console.log(str.replace("Hello", "Hi"));
+// console.log(str.replaceAll("there", "guys"));
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str.includes("Hello"))
+// console.log(str.indexOf("o"))
+// console.log(str.lastIndexOf("e"))
+// console.log(str.split());
+// console.log(str.split());
+// console.log(str.concat(str1));
+// console.log(str.charAt(0));
+// console.log(str.charCodeAt(0));
+// console.log(String.fromCharCode(86));
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+// console.log(str.trim());
+// console.log(str.padStart());
+// console.log(str.endsWith("e"));
+// console.log(str.startsWith(" "));
+// console.log(str1.padEnd(20, "."));
+// console.log(str1.padStart(25, "*"));
+// console.log(str.localeCompare(str1));
+// console.log(str1.localeCompare(str));
+// console.log(str.valueOf());
+// console.log(String.raw`\u347`);
+// console.log(str.normalize("NFD"));
+
+
+
 // 1. Verilmiş string-dəki bütün _ (underscore-ları) -(dash) ilə əvəz edin.
 
 //#region 
