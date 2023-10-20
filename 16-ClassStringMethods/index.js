@@ -1,3 +1,42 @@
+// let str = "   Hello, there ";
+// let str1 = "123";
+// console.log(str.match("H"));
+// console.log(str.matchAll("h"));
+// console.log(str.repeat(2));
+// console.log(str.search("Hello"));
+// console.log(str.length);
+// console.log(str.slice(0, 6));
+// console.log(str.substring(0, 5));
+// console.log(str.substr(3, 5));
+// console.log(str.replace("Hello", "Hi"));
+// console.log(str.replaceAll("there", "guys"));
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str.includes("Hello"))
+// console.log(str.indexOf("o"))
+// console.log(str.lastIndexOf("e"))
+// console.log(str.split());
+// console.log(str.split());
+// console.log(str.concat(str1));
+// console.log(str.charAt(0));
+// console.log(str.charCodeAt(0));
+// console.log(String.fromCharCode(86));
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+// console.log(str.trim());
+// console.log(str.padStart());
+// console.log(str.endsWith("e"));
+// console.log(str.startsWith(" "));
+// console.log(str1.padEnd(20, "."));
+// console.log(str1.padStart(25, "*"));
+// console.log(str.localeCompare(str1));
+// console.log(str1.localeCompare(str));
+// console.log(str.valueOf());
+// console.log(String.raw`\u347`);
+// console.log(str.normalize("NFD"));
+
+
+
 // 1. Verilmiş string-dəki bütün _ (underscore-ları) -(dash) ilə əvəz edin.
 
 //#region 
@@ -50,8 +89,9 @@
 //#region
 
 // let str = "js string exercises";
-// myfunc = (str) => str.charAt(0).toUpperCase() + str.slice(1);
-
+// function myfunc(str){
+//    return  str.charAt(0).toUpperCase() + str.slice(1);
+// }
 // console.log(myfunc(str));
 
 //#endregion
@@ -83,7 +123,7 @@
 //#region
 
 // let str = "JS String Exercises";
-// let word = "akam";
+// let word = "String";
 
 // function myfunc(word, str) {
 //     for (let i = 0; i < str.length; i++) {
@@ -133,29 +173,29 @@ people.push(human1, human2, human3, human4, human5);
 
 let input = prompt("search for human: ");
 
-function searchHuman(search, arr) {
+function searchHuman(search, array) {
     let result = [];
-    for (let i = 0; i < arr.length; i++) {
-        let fullName = arr[i].getFullName();
+    for (let i = 0; i < array.length; i++) {
+        let fullName = array[i].getFullName();
         if (
-            arr[i].name.toLowerCase().trim().includes(search.toLowerCase().trim()) ||
-            arr[i].surname
+            array[i].name.toLowerCase().trim().includes(search.toLowerCase().trim()) ||
+            array[i].surname
                 .toLowerCase()
                 .trim()
                 .includes(search.toLowerCase().trim()) ||
             fullName.toLowerCase().trim().includes(search.toLowerCase().trim())
         ) {
-            result.push(arr[i]);
+            result.push(array[i]);
         }
     }
-    if (result.length) {
+    if (result.length>0) {
         return result;
     } else {
         return alert(`not found ${search}`);
     }
 }
 
-let resultArr = searchHuman(input, people);
-console.log(resultArr);
+
+console.log(searchHuman(input, people));
 
 //#endregion
