@@ -45,6 +45,7 @@ button.btn {
   width: 75%;
   position: absolute;
   left: 2%;
+  max-width: 100%;
 }
 div.button {
   position: absolute;
