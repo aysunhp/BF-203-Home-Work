@@ -59,7 +59,7 @@
 
 function upper(sentences) {
     let words = sentences.split(' ');
-    let upperWords = words.forEa((word) => {
+    let upperWords = words.forEach((word) => {
         {
             if (word.slice(0, 1) >= "A" && word.slice(0, 1) <= "Z") {
                 return word.slice(0, 1);
