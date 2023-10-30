@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+#form {
+  width: 67%;
+}
