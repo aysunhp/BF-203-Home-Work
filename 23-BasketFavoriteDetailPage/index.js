@@ -336,9 +336,7 @@ fetch(url).then((res) => res.json()).then((data) => {
         basketBtn.addEventListener("click", function () {
           let basketId = basketBtn.getAttribute("name");
           fetch(url + "/" + basketId).then((res) => res.json()).then((data) => {
-            basket.innerHTML += ` <div style="background-color:whitesmoke; display:flex; justify-content:space-between;align-items:center;padding:5px; margin-bottom:10px">
-            <img src="${data.image}"  style="width: 60px; height: 60px; overflow: hidden" class="card-img-top" alt="..." />
-            <div style="display: inline;"> ${data.title} - ${data.price}</div><button class="btn btn-outline-dark deleteItem" style="display: inline;"><i class="fa-solid fa-trash"></i></button></div>`;
+            basket.innerHTML += ` `;
 
             Swal.fire({
               title: `${data.title} added to Basket`
@@ -370,8 +368,8 @@ fetch(url).then((res) => res.json()).then((data) => {
           }).catch((err) => console.log(err));
         })
       })
-      // adding new element to favourites
-      let favBtns = document.querySelectorAll(".favBtn");
+     // adding new element to favourites
+       let favBtns = document.querySelectorAll(".favBtn");
       favBtns.forEach((favBtn) => {
         favBtn.addEventListener("click", function () {
           let favId = favBtn.getAttribute("name");
