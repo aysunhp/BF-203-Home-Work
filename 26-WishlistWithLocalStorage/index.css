@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5efff;
+}
+nav {
+  align-items: center;
+  background-color: #a594f9;
+  padding: 10px 0 5px 5px;
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+li {
+  list-style: none;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+select {
+  border: none;
+  background-color: #a594f9;
+  color: white;
+}
+.toBasketBtn {
+  border-radius: 15%;
+  position: fixed;
+  right: 120px;
+  top: 6px;
+  width: 70px;
+  height: 50px;
+}
+.toHomeBtn {
+  border-radius: 15%;
+  position: fixed;
+  right: 30px;
+  top: 6px;
+  width: 70px;
+  height: 50px;
+}
+.toHomeBtnInWish {
+  border-radius: 15%;
+  position: fixed;
+  right: 120px;
+  top: 6px;
+  width: 70px;
+  height: 50px;
+}
+.toBasketBtnInWishlist {
+  border-radius: 15%;
+  position: fixed;
+  right: 30px;
+  top: 6px;
+  width: 70px;
+  height: 50px;
+}
+.toFavBtn {
+  border-radius: 15%;
+  position: fixed;
+  right: 30px;
+  top: 6px;
+  width: 70px;
+  height: 50px;
+}
+.basketBox {
+  min-height: 500px;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+.remove-all {
+  display: block;
+  position: absolute;
+  top: 8%;
+  right: 5%;
+}
+.btn-skyblue {
+  background-color: skyblue;
+  border-radius: 15px;
+  width: 200px;
+  position: absolute;
+  bottom: 15px;
+  right: 5%;
+}
+.quantity-price {
+  position: absolute;
+  bottom: 60px;
+  right: 5%;
+  display: flex;
+  gap: 30px;
+}
+.line {
+  width: 70%;
+  height: 1px;
+  color: gray;
+  border: 1px solid gray;
+  position: absolute;
+  bottom: 140px;
+  right: 5%;
+}
+.cards {
+  border: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 96%;
+}
+.footer {
+  margin-top: 200px;
+}
+#wishCard {
+  border: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
